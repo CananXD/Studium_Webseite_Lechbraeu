@@ -18,14 +18,16 @@ body {
     overflow: auto;
     background-image: url("Images/Zitronenhintergrund.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    color: black;
-    height: 100%;
+    background-size:cover;
+background-color: black;
+    max-height:100vw;
 }
 
 header {
     font-family: "SegoeUI";
     font-size: 20px;
+    
+    
 }
 
 p1 {
@@ -33,21 +35,22 @@ p1 {
     font-size: 15px;
 }
 p8{color: white;
-    font-size: 7px;}
+    font-size: 10px;}
 p2 {
     color: yellow;
     font-size: 20px;
 }
 
 #Hintergrundbox {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color:yello;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
-    height: 100px;
+    height: 100vh;
     max-height: 100vh;
+    
 }
 
 Titel{color: yellow;
@@ -81,7 +84,7 @@ p6 {color:white;
 #Transparentbox {
     background: rgba(0, 0, 0, 0.80);
     width: 50vw;
-    height: 80vw;
+    height: 50vw;
     padding: 100px;
     color: white;
     align-items: center;
@@ -89,7 +92,7 @@ p6 {color:white;
     text-align: center;
     font-family: "SegoeUI";
     font-size: 20px;
-    overflow: auto;
+    
 }
 
 img:hover {
