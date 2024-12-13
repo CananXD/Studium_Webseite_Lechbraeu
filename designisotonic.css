@@ -5,8 +5,9 @@
 }
 
 @font-face {
-    font-family: "TitelName";
-    src: url("Fonts/Kunstler.ttf") format("truetype");
+    font-family: "Kunstler Script", "TitelName";
+    src: url("Fonts/KUNSTLER.TTF") format("truetype");
+      src: url("Fonts/KUNSTLER.woff") format("wff");
 }
 
 body {
@@ -23,6 +24,14 @@ body {
     flex-direction: column;
 }
 
+p6 {
+            color: white;
+    font-size: 70px;
+    font-family: "Kunstler Script";
+    color: white;
+    font-size: 70px;
+
+}
 header {
     font-family: "SegoeUI";
     font-size: 20px;
@@ -39,16 +48,12 @@ p1 {
     font-size: 15px;
 }
 
+
 p2 {
     color: yellow;
     font-size: 20px;
 }
 
-p6 {
-    color: white;
-    font-size: 70px;
-    font-family: "TitelName";
-}
 
 Titel {
     color: yellow;

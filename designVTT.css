@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "TitelName";
-    src: url("Fonts/Kunstler.ttf") format("truetype");
+    src: url("Fonts/kunstler.ttf") format("truetype");
 }
 body {
     font-family: "SegoeUI", sans-serif;
